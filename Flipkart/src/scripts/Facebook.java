@@ -18,6 +18,7 @@ public class Facebook {
 		sel.selectByVisibleText("25");
 		String talen=sel.getFirstSelectedOption().getText();
 		System.out.println(talen);
+		System.out.println(talen);
 		driver.close();
 	}
 
