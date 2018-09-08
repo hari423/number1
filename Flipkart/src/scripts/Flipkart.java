@@ -17,6 +17,7 @@ public class Flipkart {
 		driver.findElement(By.id("pLogin")).sendKeys("9908161191423");
 	    driver.findElement(By.xpath("//button[@type='submit' and @value='Login']")).click();
 		driver.quit();
+		driver.close();
 	}
 
 }
